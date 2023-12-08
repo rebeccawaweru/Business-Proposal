@@ -1,6 +1,7 @@
 import screen1 from '../assets/images/screen1.png'
 import screen2 from '../assets/images/screen2.png'
 import screen3 from '../assets/images/screen3.png'
+import screen4 from '../assets/images/screen4.png'
 import { useState } from 'react';
 import { GrNext } from "react-icons/gr";
 export default function Gallery(){
@@ -12,10 +13,14 @@ export default function Gallery(){
     },
     {
         id:2,
-        src:screen2
+        src:screen4
     },
     {
         id:3,
+        src:screen2
+    },
+    {
+        id:4,
         src:screen3
     },
     ] ;
