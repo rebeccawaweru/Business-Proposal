@@ -16,7 +16,7 @@ code {
     monospace;
 }
 .bg{
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ),url('./assets/images/ship.jpg');
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6) ),url('./assets/images/ship.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position:right; */

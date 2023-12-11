@@ -27,7 +27,7 @@ function App() {
             <ListItem show={show} display="about" onClick={()=>setShow('about')} title="About"/>
             <ListItem show={show} display="demo" title="Demo"/>
             <ListItem show={show} display="gallery" title="Gallery" onClick={()=>setShow('gallery')}/>
-            <ListItem show={show} display="report" title={<a href="https://drive.google.com/file/d/13_sVIir-EBhK_7RhoRAKg8lcqmUlcKlv/view?usp=sharing" target='_blank' rel="noreferrer"   >
+            <ListItem show={show} display="report" title={<a href="https://drive.google.com/file/d/1dSWHkqKTIelEQK0ZwqLAbC8rNQ5KOKl-/view?usp=sharing" target='_blank' rel="noreferrer"   >
             <p>Report</p>
             </a>}/>
           </ul>
@@ -46,7 +46,7 @@ function App() {
             <ListItem show={show} display="about" onClick={()=>setShow('about')} title="About"/>
             <ListItem show={show} display="demo" title="Demo"/>
             <ListItem show={show} display="gallery" onClick={()=>setShow('gallery')} title="Gallery"/>
-            <ListItem show={show} display="report" title={<a href="https://drive.google.com/file/d/13_sVIir-EBhK_7RhoRAKg8lcqmUlcKlv/view?usp=sharing" target='_blank' rel="noreferrer"   >
+            <ListItem show={show} display="report" title={<a href="https://drive.google.com/file/d/1dSWHkqKTIelEQK0ZwqLAbC8rNQ5KOKl-/view?usp=sharing" target='_blank' rel="noreferrer"   >
             <p>Report</p>
             </a>}/>
           </ul>
