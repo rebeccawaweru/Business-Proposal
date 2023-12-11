@@ -2,6 +2,7 @@ import screen1 from '../assets/images/screen1.png'
 import screen2 from '../assets/images/screen2.png'
 import screen3 from '../assets/images/screen3.png'
 import screen4 from '../assets/images/screen4.png'
+import screen5 from '../assets/images/screen5.png'
 import { useState } from 'react';
 import { GrNext } from "react-icons/gr";
 export default function Gallery(){
@@ -21,6 +22,10 @@ export default function Gallery(){
     },
     {
         id:4,
+        src:screen5,
+    },
+    {
+        id:5,
         src:screen3
     },
     ] ;
@@ -29,9 +34,9 @@ export default function Gallery(){
     }
     return (
         <>
-        <div className='flex space-x-4 items-center '>
+        <div className='flex space-x-4 items-center mt-48'>
          {data.map((img)=>{
-            return <img src={img.src} alt='demo' className={`h-48 2xl:h-80 xl:h-80 lg:h-80 md:h-80 w-48 2xl:w-3/4 xl:w-3/4 lg:w-3/4 md:w-3/4 ${current === img.id ? 'block' : 'hidden'}`}/>
+            return <img src={img.src} alt='demo' className={`h-48 2xl:h-96 xl:h-96 lg:h-96 md:h-96 w-48 2xl:w-3/4 xl:w-3/4 lg:w-3/4 md:w-3/4 ${current === img.id ? 'block' : 'hidden'}`}/>
          })}
          <GrNext onClick={handleNext} className='text-2xl'/>
         </div>
